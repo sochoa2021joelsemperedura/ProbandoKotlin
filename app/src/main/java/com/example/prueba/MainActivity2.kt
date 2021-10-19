@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import com.example.prueba.MainActivity.Constantes.EXTRA_NOMBRE
 
-class RecibeTextView : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity() {
     lateinit var tvRecibeNombre : TextView;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
